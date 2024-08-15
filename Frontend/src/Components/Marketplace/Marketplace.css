@@ -1,0 +1,330 @@
+
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+.mclubbox1 {
+    width: 100%;
+    max-width: 1700px; /* Adjust as needed */
+    background-color: #ffffff;
+    color: #000000;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+
+.msub-title{
+    transform: translate(27%);
+    font-size: 56px;
+    color: #A67C00;
+    font-weight: 700;
+}
+.mtwo-column-layout0 {
+    display: flex;
+    width: 100%;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.mtwo-column-layout1 {
+    display: flex;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -25px;
+    
+}
+.mtwo-column-layout2 {
+    display: flex;
+    width: 100%;
+    margin: 15px;
+}
+
+.mcolumn {
+    flex: 1;
+}
+
+.mcolumna {
+    width:58%;
+    background-color: #000;
+}
+
+.mcolumnb {
+    width: 38.8%;
+}
+
+
+
+
+.mvideo-container-largea {
+    width: 100%; /* Set to cover 65% of total width */
+    height: 450px;
+    position: relative;
+    box-sizing: border-box;/* Adjust to cover the full width */
+}
+
+.mvideo-container-largea video {
+    width: 100%;
+    height: 450px/* Set the height to cover the full height of the container */
+}
+
+.mvideo-container-largea h1 {
+    position: absolute;
+    transform: translate(50%, -930%);
+    color: #070707; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    white-space: nowrap;
+}
+
+.mvideo-container-largea a.mregister-btn {
+    transform: translate(750%, -160%);
+    font-weight: 700;
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    display: flex;
+    white-space: nowrap;
+     /* Adjust as needed */
+}
+.video-container-largeb {
+    width: 100%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-left: 15px;
+    height: 458px;
+    margin-right: 50px;
+    background-color: #000;
+}
+
+.video-container-largeb video {
+    width: 100%; /* Set to cover 65% of total width */
+    height: 400px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.video-container-largeb h1 {
+    position: absolute;
+    transform: translate(30%, -810%);
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.video-container-largeb a {
+    position: absolute;
+        transform: translate(750%, -60%);
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.video-container-largeb a.smregister-btn {
+    transform: translate(350%, 55%);
+    font-weight: 700;
+    position: absolute;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    white-space: nowrap;
+     /* Adjust as needed */
+}
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+
+.mcolumnc {
+    width: 38.8;
+}
+.mcolumnd {
+    width: 56%;
+    margin-right: 15px;
+}
+.video-container-largecc {
+    width: 100%; /* Set to cover the full width */
+    height: 450px; /* Set the height to match */
+    position: relative;
+    box-sizing: border-box;
+    background-color: #000000;
+    margin-right: 15px;
+}
+
+.video-container-largecc video {
+    width: 100%;
+    height: 450px;
+    background-color: #000; /* Set the height to cover the full height of the container */
+}
+
+.video-container-largecc h1 {
+    position: absolute;
+    transform: translate(12%, -930%);
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.video-container-largecc a {
+    position: absolute;
+    transform: translate(10%, 0%);
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.video-container-larged {
+    width: 96%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-left: 15px;
+    height: 450px;
+    background-color: #000;
+}
+
+.video-container-larged video {
+    width: 100%;
+    height: 450px;/* Set the height to cover the full height of the container */
+    
+    
+}
+
+.video-container-larged h1 {
+    position: absolute;
+    transform: translate(30%, -735%);
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.video-container-larged a.smvisit2a {
+    transform: translate(0%, 1700%);
+    position: absolute; /* Adjust as needed */
+    left: 15px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.video-container-larged a.smvisit2b{
+    transform: translate(0%, 1700%);
+    left: 260px;
+    position: absolute; 
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+     /* Adjust as needed */
+}
+.video-container-larged a.smvisit2c{
+    transform: translate(0%, 1700%);
+    left: 545px;
+    position: absolute; 
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+     /* Adjust as needed */
+}
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+.mcolumne {
+    width: 58%;
+}
+
+.mcolumnf {
+    width: 38.8%;
+}
+.video-container-largee {
+    width: 100%; /* Set to cover 65% of total width */
+    height: 450px;
+    position: relative;
+    box-sizing: border-box;/* Adjust to cover the full width */
+    background-color: #000;
+}
+
+.video-container-largee video {
+    width: 100%;
+    height: 450px;/* Set the height to cover the full height of the container */
+}
+
+.video-container-largee h1 {
+    position: absolute;
+    transform: translate(50%, -930%);
+    color: #070707; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    white-space: nowrap;
+}
+
+.video-container-largee a.mregister-btn3 {
+    transform: translate(760%, -45px);
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    display: flex;
+    white-space: nowrap;
+    font-weight: 700;
+     /* Adjust as needed */
+}
+.video-container-largef {
+    width: 100%; /* Set the width to cover the full left column */
+    position: relative;
+    margin-left: 15px;
+    height: 450px;
+    margin-right: 15px;
+    background-color: #000;
+}
+
+.video-container-largef video {
+    width: 100%; /* Set to cover 65% of total width */
+    height: 450px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.video-container-largef h1 {
+    position: absolute;
+    transform: translate(55%, -810%);
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.video-container-largef a.smvisit4 {
+    position: absolute;
+    left: 5px;
+    transform: translate(0%, 1740%);
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.video-container-largef a.smvisit5 {
+    
+    font-weight: 700;
+    transform: translate(160%, 0%);
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    white-space: nowrap;
+     /* Adjust as needed */
+}
+.video-container-largef a.smregister-btn4 {
+    
+    left: 360px;
+    position: absolute;
+    align-items: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    white-space: nowrap;
+    font-weight: 700;
+     /* Adjust as needed */
+}

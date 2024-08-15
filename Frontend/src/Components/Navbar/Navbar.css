@@ -1,0 +1,329 @@
+.nav {
+  position: fixed;
+  top: 0;
+  /* Stick the nav at the top of the screen */
+  width: 100%;
+  z-index: 1000;
+  /* Move background color from .nav .headerlist to .nav */
+}
+
+.nav {
+  background-color: black;
+  /* Adjust padding as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  color: white;
+  background-color: black;
+}
+
+.nav-menu li {
+  font-size: 10px;
+  margin-right: 12px;
+  /* Adjust the spacing between list items as needed */
+}
+
+.nav-menu li:hover {
+  color: #ffffff;
+  /* Change color to blue on hover */
+}
+
+
+.nav-img {
+  padding-top: 10px;
+  height: 60px;
+  width: 150px;
+  margin-left: 70px;
+}
+
+.search-img {
+  padding-top: 15px;
+  height: 50px;
+  width: 580px;
+  margin-left: 600px;
+
+}
+
+.nav-logo {
+  display: flex;
+  margin-left: 100;
+  background-color: black;
+  color: white;
+}
+
+.dropdown li {
+  display: block;
+  white-space: nowrap;
+  /* Ensure each dropdown item stays on a single line */
+}
+.dropdown1 li {
+  display: block;
+  white-space: nowrap;
+  /* Ensure each dropdown item stays on a single line */
+}
+
+
+
+.headerlist {
+  display: flex;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: 2px solid rgb(0, 0, 0);
+}
+
+.headerlist li {
+  margin-left: 15px;
+  color: white;
+  font-size: 13px;
+  white-space: nowrap;
+
+}
+
+.nav .headerlist {
+  background-color: black;
+  /* Set background color to black */
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  /* Set font color to white */
+}
+
+.headerlist .logo1 {
+  margin-left: 80px;
+}
+
+.headerlist .logo {
+  margin-left: 10px;
+}
+
+.headerlist .right-align1 {
+  margin-left: 225px;
+  margin-right: 20px;
+}
+
+.headerlist .right-align {
+  color: white;
+  margin-right: 20px;
+
+}
+
+a:-webkit-any-link {
+  color: white;
+}
+
+.headerlist .right-align2 {
+  margin-right: 80px;
+}
+
+.headerlist i {
+  font-size: 19px;
+  /* Adjust the size as needed */
+}
+
+.right-align {
+  margin-left: auto;
+  color: white;
+}
+
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-img {
+  width: 100px;
+  /* Adjust as needed */
+  height: auto;
+  margin-right: 10px;
+  /* Adjust spacing between logo and search bar */
+}
+
+.filter-container {
+  position: relative;
+  transform: translate(20%, 55%);
+  /* Adjust margin to position just  tbeforehe search container */
+}
+
+.filter-container {
+  transform: translate(50%, 55%);
+  /* Adjust margin to position just before the search container */
+  color: #ffffff;
+  width: 100px;
+  /* Set text color to white */
+}
+.filter-dropdown{
+  transform: translate(145%, -88%);
+  height: 38px;
+  width: 150px;
+}
+.filter-text{
+  position: relative;
+  margin-left: 150px;
+  white-space: nowrap;
+
+}
+.search-container {
+  position: relative;
+  transform: translate(-3%, 30%);
+  /* Adjust margin to auto to align to the right */
+}
+
+#search-input {
+  padding: 8px 10px;
+  font-size: 14px;
+  width: 450px;
+  /* Adjust width as needed */
+  background-color: #ffffff;
+  /* Set background color to gray */
+  color: rgb(0, 0, 0);
+  /* Set text color to white */
+}
+
+
+#search-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-left: 200px;
+  transform: translateY(-50%);
+  background: None;
+  border: none;
+  cursor: pointer;
+}
+
+.search-img {
+  width: 20px;
+  /* Adjust size of search icon */
+  height: auto;
+}
+
+#filter {
+  height: 27px;
+  width: 50px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-parent:hover .dropdown {
+  display: block;
+}
+
+.nav-menu .dropdown {
+  list-style-type: none;
+  /* Remove bullets from the dropdown menu */
+}
+
+.headerlist li:hover {
+  color: #ffffff;
+  /* Change text color to grey on hover */
+}
+
+
+.nav .headerlist a:hover {
+  color: #fcfcfc;
+  /* Change text color to grey on hover */
+  transform: scale(1.05);
+  /* Add slight zoom effect on hover */
+  transition: transform 0.3s ease;
+  /* Smooth transition for zoom effect */
+}
+
+.headerlist li,
+.nav-menu li,
+.dropdown li {
+  font-family: "poppins";
+  /* Set font family */
+  font-size: 14px;
+  /* Set font weight */
+  /* Add any other styles you want to apply */
+}
+
+/* Assuming the CSS file associated with Club component is named Club.css */
+
+/* Media query for screens narrower than 1050px */
+@media screen and (max-width: 1050px) {
+  .nav-menu {
+    padding-left: 20px;
+    /* Adjust padding as needed */
+    padding-right: 20px;
+    /* Adjust padding as needed */
+  }
+
+
+
+  .filter-container {
+    margin-left: 20px;
+    /* Adjust margin as needed */
+  }
+
+  .search-container {
+    margin-right: 20px;
+    /* Adjust margin as needed */
+  }
+
+  #search-input {
+    width: 150px;
+    /* Adjust width as needed */
+  }
+
+  #filter {
+    display: none;
+    /* Hide filter icon for smaller screens */
+  }
+
+
+
+  .nav .headerlist {
+    padding: 0;
+    /* Remove padding */
+    display: flex;
+  }
+
+  .nav-logo {
+    margin-right: auto;
+    /* Align logo to the left */
+  }
+
+  .headerlist .right-align1 {
+    margin-left: 300px;
+    margin-right: 20px;
+  }
+
+  .headerlist .right-align {
+    color: white;
+
+  }
+  .nav-menu {
+    padding-left: 20px;
+  }
+  
+  .nav-menu li {
+    font-size: 12px;
+    /* Adjust the spacing between list items as needed */
+  }
+
+  
+
+
+}

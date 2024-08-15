@@ -1,0 +1,274 @@
+.gvideo-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+.gclubbox1{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: -40px;
+    max-width: 1700px;
+    margin-bottom: 200px;
+}
+.gvideo-containera {
+    max-width: 100%;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.gvideo-containera video {
+    max-width: 800;
+    /* Set maximum width for the video */
+    height: 280px;
+    /* Maintain aspect ratio */
+    border: none;
+    margin: 0;
+}
+
+.gsub-title{
+    align-items: center;
+    font-size: xx-large;
+    margin-top: 80px;
+    font-weight: 700;
+    transform: translate(20%, -20%);
+    font-size: 24px;
+    color: #A67C00;
+}
+.gclubbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.gevents-heading {
+    text-align: center;
+}
+
+
+.gsub-title {
+    font-size: 24px;
+}
+
+.gservices-list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.gservices-list1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transform: translate(0%, 40%);
+}
+.gvideo-containera {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gvideo-containera video {
+    width: 900px;
+    height: 350px;
+    border: none;
+    margin-top: 100px;
+
+}
+.gvideo-containerib {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -75px;
+    margin-bottom: 15px;
+}
+
+.gvideo-containerib video {
+    width: 800px;
+    height: 300px;
+    border: none;
+    margin-top: -100px;
+
+}
+.gvideo-container {
+    width: 800px;
+    height: 300px;
+    border: none;
+    /* Add other styles as needed */
+}
+.gvideo-containerib {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    /* Add other styles as needed */
+}
+
+
+.gtext-container {
+    max-width: 300px;
+}
+
+.ghead {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.gevents-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.gevents-heading hr {
+    flex-grow: 1;
+    margin: 0 20px;
+    border: none;
+    border-top: 2px solid white;
+}
+
+.gsub-title {
+    font-size: 56px; /* Increased font size */
+}
+.gvideo-containera h2{
+    position: absolute;
+    transform: translate(-52%, -220%);
+    align-items: center;
+    left: 250px; /* Adjust as needed */
+    margin-left: 100px;
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 700;
+}
+.gvideo-containera h3{
+    position: absolute;
+    transform: translate(-2%, -220%);
+    align-items: center;
+    left: 170px; /* Adjust as needed */
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 20px;
+}
+.gvideo-containera h4{
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    align-items: center;
+    left: 250px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+}
+.gvideo-containerib h2{
+    position: absolute;
+    transform: translate(0%, -300%);
+    align-items: center; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 700;
+}
+.gvideo-containeri h5{
+    position: absolute;
+    bottom: 35px; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+}
+.gvideo-containerib h4{
+    position: absolute;
+    bottom: 6px; /* Adjust as needed */
+    left: 160px; /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+}
+
+
+.gregister-btn{
+    justify-content: center;
+    margin: -20px;
+    
+}
+
+.gregister-btn {
+    margin-left: 25px;
+    white-space: nowrap; /* Add some vertical spacing between buttons */
+}
+
+.gregisterr-btn {
+    transform: translate(0%, -100%);
+    position: absolute;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.gregisterr-btn1 {
+    transform: translate(200%, 500%);
+    position: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    font-weight: 800;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.gsregisterr-btn1 {
+    transform: translate(110%, 60%);
+    
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    white-space: nowrap;
+}
+.gline{
+    visibility: hidden;
+}
+@media screen and (max-width: 1500px){
+    .gvideo-container h2{
+        bottom: 370px; /* Adjust as needed */
+        left: 70px; 
+    }
+    .gvideo-containeri h3{
+        position: absolute;
+        bottom: 335px; /* Adjust as needed */
+        font-size: 23px;
+    }
+}

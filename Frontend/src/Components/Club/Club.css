@@ -1,0 +1,192 @@
+/* Common styles for all screen sizes */
+.clubbox2 {
+    width: 100%;
+    max-width: 1700px; /* Adjust as needed */
+    margin: 0 auto; /* Center align */
+    background-color: #fff;
+    margin-top: 70px;
+    
+}
+
+.sub-title1{
+    left: 50%;
+    font-size: 56px;
+    color: #A67C00;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.two-column-layout1 {
+    display: flex; /* Adjust to place the columns at the start and end */
+    width: 100%; /* Adjust to cover the full width */
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+.column1{
+    width: 63%;
+}
+.column2{
+    width: 33.8%;
+}
+/* Large video container */
+.video-container-large1 {
+    width: 100%; /* Set to cover 65% of total width */
+    height: 500px;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    
+}
+
+.video-container-large1 video {
+    width: 100%; /* Adjust video width to fit its container */
+    height: 517px; /* Allow height to adjust based on content */
+    object-fit:cover;
+    background-color: #000000;
+}
+
+.video-container-large1 h1{
+    position: absolute;
+    transform: translate(50%, -1000%);/* Adjust as needed */ /* Adjust as needed */
+    color: #fff; /* Text color */
+    text-decoration: none;
+}
+.video-container-large1 a.register-btn {
+    position: absolute;
+    transform: translate(-120%, 945%);
+    color: #fff; /* Text color */
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 800;
+}
+
+/* Small video containers */
+.video-row1 {
+    width: 100%; /* Set to cover 35% of total width */
+    display: flex;
+    flex-direction: column; /* Set the direction to column */
+    justify-content: space-evenly;
+    margin-left: 15px ; /* Add padding to create space between videos */
+    background-color: #fff;
+    color: #000;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.video-container-small,
+.video-container-small1 {
+    width: 100%; /* Set to cover the full width */
+    position: relative;
+}
+
+.video-container-small video{
+    width: 100%; /* Adjust video width to fit its container */
+    height: 250px; /* Allow height to adjust based on content */
+    background-color: #000000;
+}
+.video-container-small1 video {
+    width: 100%; /* Adjust video width to fit its container */
+    height: 245px; /* Allow height to adjust based on content */
+    background-color: #000000;
+    margin-top: 15px;
+}
+
+.video-container-small h5,
+.video-container-small1 h5{
+    position: absolute;
+    bottom: 180px; /* Adjust as needed */
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Adjust as needed */
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    
+}
+.video-container-small a.register-btn{
+    position: absolute;
+    transform: translate(-130%, 845%);
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 800;
+}
+.video-container-small1 a.register-btn {
+    position: absolute;
+    transform: translate(-130%, 915%);
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 800;
+}
+
+
+
+.video-container-bottom {
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+    color: #000000;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.video-container-bottom video {
+    width: 100%;
+    height: auto;
+}
+
+.bottomrow {
+    display: flex; /* Adjust to place the columns at the start and end */
+    width: 100%; /* Adjust to cover the full width */
+    margin-top: -10px;
+}
+
+.bottomrow .video-container-bottom {
+    width: 50%;
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+
+
+.video-container-bottom h3 {
+    position: absolute;
+    transform: translate(50%, -1200%);
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.video-container-bottom h4 {
+    position: absolute;
+    transform: translate(50%, -1200%);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.video-container-bottom a.register-btn1 {
+    position: absolute;
+    transform: translate(-120%, 650%);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    width: 160px;
+    white-space: nowrap;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.video-container-bottom a.register-btn2 {
+    position: absolute;
+    transform: translate(-120%, 650%);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    width: 160px;
+    flex-direction: column;
+    white-space: nowrap;
+    font-weight: 800;
+    font-size: 18px;
+}

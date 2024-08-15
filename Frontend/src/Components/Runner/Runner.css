@@ -1,0 +1,57 @@
+.runner-strip-container {
+    background-color: black;
+    padding: 10px 0; /* Adjust padding as needed */
+    margin-top:34.7%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .runner-strip {
+    display: flex;
+    overflow: hidden; /* Hide overflowing text */
+    color: rgb(255, 255, 255);
+    animation: marquee 20s linear infinite; /* Add animation for scrolling effect */
+  }
+  
+  .runner-strip span {
+    padding: 0 20px; /* Adjust spacing between text */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  /* Animation keyframes for scrolling effect */
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .runner-strip {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.runner-strip a {
+    margin-right: 20px; /* Adjust the space between names as needed */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.runner-strip a:hover {
+    color: #ff004f; /* Change color to ff004f on hover */
+}
+
+@media screen and (max-width: 1050px) {
+  .runner-strip-container {
+      margin-top: 230px; 
+      background-color: black;
+      color: white;/* Adjust margin for smaller screens */
+  }
+
+  .runner-strip a {
+      margin-right: 10px; /* Adjust the space between names for smaller screens */
+  }
+}
